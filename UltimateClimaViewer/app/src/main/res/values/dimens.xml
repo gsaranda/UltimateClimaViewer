@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="medium_margin">16dp</dimen>
+    <dimen name="small_ico">30dp</dimen>
+    <dimen name="big_text_size">24dp</dimen>
+    <!-- Bottomsheet -->
+    <dimen name="bs_peek_height">25dp</dimen>
+    <dimen name="bs_button_top_margin">35dp</dimen>
+    <dimen name="bs_max_elevation">500dp</dimen>
+    <dimen name="bs_imagebuttons_width">40dp</dimen>
+    <dimen name="bs_container_height">100dp</dimen>
+    <dimen name="bs_ib_label">13dp</dimen>
+    <dimen name="bs_container_buttons">16sp</dimen>
+    <dimen name="bs_corner_radius_arrow">7dp</dimen>
+    <dimen name="bs_width_line_arrow">3dp</dimen>
+    <dimen name="bottomsheet_buttons_vertical_margin">24dp</dimen>
+    <dimen name="bottomsheet_horizontal_margin">8dp</dimen>
+    <dimen name="activity_extra_bottomsheet_margin">8dp</dimen>
+    <dimen name="bottomsheet_margin_top_shadow">2dp</dimen>
+</resources>

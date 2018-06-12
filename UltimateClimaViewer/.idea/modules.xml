@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/UltimateClimaViewer.iml" filepath="$PROJECT_DIR$/UltimateClimaViewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/climamodels/climamodels.iml" filepath="$PROJECT_DIR$/climamodels/climamodels.iml" />
+      <module fileurl="file://$PROJECT_DIR$/climapresenters/climapresenters.iml" filepath="$PROJECT_DIR$/climapresenters/climapresenters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httprequester/httprequester.iml" filepath="$PROJECT_DIR$/httprequester/httprequester.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_shape"
+    android:text="@string/select_location_instruction"
+    android:textSize="24sp"
+    android:gravity="center"
+    android:textColor="@android:color/widget_edittext_dark"/>
+    <mx.com.darklider.ultimateclimaviewer.customViews.LocationSelector
+        android:id="@+id/mex_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:btn_subtitle="@string/mexico_description"
+        app:btn_title="@string/mexic_location"
+        app:btn_image="@drawable/mexflag"
+        />
+
+    <mx.com.darklider.ultimateclimaviewer.customViews.LocationSelector
+        android:id="@+id/en_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:btn_subtitle="@string/london_description"
+        app:btn_title="@string/london_location"
+        app:btn_image="@drawable/enflag"
+        />
+
+    <mx.com.darklider.ultimateclimaviewer.customViews.LocationSelector
+        android:id="@+id/fr_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:btn_subtitle="@string/paris_description"
+        app:btn_title="@string/paris_location"
+        app:btn_image="@drawable/franflag"
+        />
+
+</LinearLayout>

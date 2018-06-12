@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTextviewHighLight">#D32F2F</color>
+    <color name="colorTextviewResult">#FFCDD2</color>
+
+    <!-- Bottomsheet shading off -->
+    <color name="bottomsheet_lighter_blue">#00BDF2</color>
+    <color name="bottomsheet_middle_blue">#008BC4</color>
+    <color name="bottomsheet_darker_blue">#004785</color>
+    <color name="bottomsheet_darker_blueTop">#7f004785</color>
+
+    <color name="bottomsheet_first_color">#1EBCEF</color>
+    <color name="bottomsheet_second_color">#1C8BBE</color>
+    <color name="bottomsheet_third_color">#1972A6</color>
+    <color name="bottomsheet_fourth_color">#156096</color>
+    <color name="bottomsheet_fifth_color">#12548C</color>
+    <color name="bottomsheet_sixth_color">#134C86</color>
+    <color name="bottomsheet_seven_color">#144984</color>
+
+</resources>

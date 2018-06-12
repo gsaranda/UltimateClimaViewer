@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cl_root"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@android:color/transparent"
+    android:elevation="20dp"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="@dimen/bs_peek_height"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+
+    >
+
+
+    <ImageButton
+        android:id="@+id/middle_imgbtn"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="@dimen/bs_button_top_margin"
+        android:elevation="50dp"
+        android:background="@drawable/climalogo"
+        android:scaleType="fitXY"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/middle_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textColor="@android:color/white"
+        android:textSize="12dp"
+        android:text="@string/weather_header"
+        android:elevation="50dp"
+        app:layout_constraintLeft_toLeftOf="@+id/middle_imgbtn"
+        app:layout_constraintRight_toRightOf="@+id/middle_imgbtn"
+        app:layout_constraintTop_toBottomOf="@+id/middle_imgbtn" />
+
+    <ImageView
+        android:id="@+id/topshadow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/shadowsimple"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/TopGradientColor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/activity_extra_bottomsheet_margin"
+        android:layout_marginRight="@dimen/activity_extra_bottomsheet_margin"
+        android:layout_marginTop="@dimen/bottomsheet_margin_top_shadow"
+        android:background="@drawable/bottomsheet_flange_gradient"
+        app:layout_constraintBottom_toTopOf="@+id/TopGradientColor2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_gradient2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/TopGradientColor2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/activity_extra_bottomsheet_margin"
+        android:layout_marginRight="@dimen/activity_extra_bottomsheet_margin"
+        android:background="@drawable/bottomsheet_flange_gradient2"
+        app:layout_constraintBottom_toTopOf="@+id/TopGradientColor3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_gradient2" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_gradient3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/TopGradientColor3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/activity_extra_bottomsheet_margin"
+        android:layout_marginRight="@dimen/activity_extra_bottomsheet_margin"
+        android:background="@drawable/bottomsheet_flange_gradient3"
+        app:layout_constraintBottom_toTopOf="@+id/BottomColor"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_gradient3" />
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_half_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/BottomColor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/activity_extra_bottomsheet_margin"
+        android:layout_marginRight="@dimen/activity_extra_bottomsheet_margin"
+        android:background="@color/bottomsheet_seven_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline_half_screen" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/bottomsheet_flange"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bs_peek_height"
+        android:layout_marginLeft="@dimen/activity_extra_bottomsheet_margin"
+        android:layout_marginRight="@dimen/activity_extra_bottomsheet_margin"
+        android:layout_marginTop="@dimen/bottomsheet_margin_top_shadow"
+        android:background="@drawable/bottomsheet_flange__no_gradient"
+        android:paddingTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline_bottomsheet_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/bottom_sheet_arrow_left"
+            android:layout_width="18dp"
+            android:layout_height="8dp"
+            android:paddingRight="-5dp"
+            android:src="@drawable/bottomsheet_arrow_up_left"
+            app:layout_constraintRight_toLeftOf="@+id/guideline_bottomsheet_arrow"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/bottom_sheet_arrow_rigth"
+            android:layout_width="18dp"
+            android:layout_height="8dp"
+            android:paddingLeft="-5dp"
+            android:src="@drawable/bottomsheet_arrow_up_rigth"
+            app:layout_constraintLeft_toRightOf="@+id/bottom_sheet_arrow_left"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>

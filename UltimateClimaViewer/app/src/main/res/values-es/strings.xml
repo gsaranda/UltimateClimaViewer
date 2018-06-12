@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UltimateClimaViewer</string>
+    <string name="loading_message">cargando</string>
+    <string name="get_weather">Ver clima de los siguientes 5 días</string>
+    <string name="select_location">Localidad del clima</string>
+    <string name="mexic_location">México</string>
+    <string name="london_location">Inglaterra</string>
+    <string name="paris_location">Francia</string>
+    <string name="mexico_description">Ciudad de México</string>
+    <string name="london_description">Londres</string>
+    <string name="paris_description">Paris</string>
+    <string name="select_location_instruction">Selecciona la ubicación</string>
+    <string name="current_location">Ubicación: </string>
+    <string name="default_location">Mexico, Ciudad de México</string>
+    <string name="date">"Fecha: "</string>
+    <string name="min_temp">"Temperatura mínima: "</string>
+    <string name="max_temp">"Temperatura máxima: "</string>
+    <string name="pressure">"Presión: "</string>
+    <string name="humidity">"Humedad: "</string>
+    <string name="forecast">"Pronóstico: "</string>
+    <string name="error_dialog_header">Error de conexión</string>
+    <string name="error_dialog_body">Hubo un problema, porfavor checa tu conexión de internet e intenta de nuevo</string>
+    <string name="error_accept_button">Aceptar</string>
+    <string name="weather_header">Visualizador de Clima</string>
+    <string name="bsheet_button_location">Cambiar de ubicación</string>
+</resources>

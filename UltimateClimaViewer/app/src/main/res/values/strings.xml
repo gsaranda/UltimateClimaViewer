@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UltimateClimaViewer</string>
+    <string name="loading_message">loading</string>
+    <string name="get_weather">Get weather for the next 5 days</string>
+    <string name="select_location">Set weather location</string>
+    <string name="mexic_location">Mexico</string>
+    <string name="london_location">England</string>
+    <string name="paris_location">France</string>
+    <string name="mexico_description">Mexico City</string>
+    <string name="london_description">London</string>
+    <string name="paris_description">Paris</string>
+    <string name="select_location_instruction">Select Location</string>
+    <string name="current_location">Location: </string>
+    <string name="default_location">Mexico, Mexico city</string>
+    <string name="date">Date: </string>
+    <string name="min_temp">Minimum temperature: </string>
+    <string name="max_temp">Maximum temperature: </string>
+    <string name="pressure">Pressure: </string>
+    <string name="humidity">Humidity: </string>
+    <string name="forecast">Forecast: </string>
+    <string name="error_dialog_header">Network error</string>
+    <string name="error_dialog_body">There was an issue, please check your internet connection and try again.</string>
+    <string name="error_accept_button">OK</string>
+    <string name="weather_header">Weather Viewer</string>
+    <string name="bsheet_button_location">Change location</string>
+</resources>
